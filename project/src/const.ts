@@ -1,6 +1,7 @@
 import { City } from './types/offer';
 
 export const DEFAULT_MAP_ZOOM = 10;
+export const BASENAME = '1207349-six-cities-simple-12';
 
 export enum AppRoute {
   Root = '/',
@@ -43,8 +44,8 @@ export enum SortingOption {
 }
 
 export enum UrlMarker {
-  Default = 'img/pin.svg',
-  Current = 'img/pin-active.svg',
+  Default = '/1207349-six-cities-simple-12/img/pin.svg',
+  Current = '/1207349-six-cities-simple-12/img/pin-active.svg',
 }
 
 export enum DisplayCount {
